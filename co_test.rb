@@ -6,6 +6,10 @@ class Product
     @sell_in = sell_in
     @price   = price
   end
+
+  def product_printer
+    puts "#{self.name}, #{self.sell_in}, #{self.price}"
+  end
 end
 
 class CarInsurance
